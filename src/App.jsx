@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import ResumeType from './assets/Resume-type'
+import Home from './assets/Home'
 
 function App() {
 
   return (
     <div className="App">
-      <ResumeType />
+      <Home />
     </div>
   )
 }
