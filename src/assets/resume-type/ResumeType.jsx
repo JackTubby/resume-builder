@@ -1,9 +1,11 @@
 import Header from './header/Header'
+import ResumeOptions from './ResumeOptions'
 
 function resumeType() {
     return (
         <div>
-           <Header/> 
+           <Header/>
+           <ResumeOptions />
         </div>
     )
 }
