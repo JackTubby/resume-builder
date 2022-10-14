@@ -1,4 +1,5 @@
 import ResumeOptions from './ResumeOptions'
+import './resumeType.css'
 // Import data containing resume options
 import data from './resumeOptionsData'
 
@@ -11,7 +12,7 @@ function resumeType() {
     })
 
     return (
-        <div>
+        <div className='options--wrapper'>
            {options}
         </div>
     )

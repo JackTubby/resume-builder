@@ -2,7 +2,9 @@ function ResumeOptions(props) {
 
     return(
         <div>
-            <h3>{props.resume}</h3>
+            <div className="options--border">
+                <h3 className="options--h3">{props.resume}</h3>
+            </div>
         </div>
     )
 }
