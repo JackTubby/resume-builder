@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import ResumeType from './assets/resume-type'
+import ResumeType from './assets/Resume-type'
 
 function App() {
 
